@@ -8,7 +8,7 @@ class Index_Model extends Model
 	}
 	public function getAllrecords()
 	{
-		return $this->db->select("SELECT * FROM `mvc` ORDER BY id DESC");
+		return $this->db->select("SELECT * FROM `mvc´ ORDER BY id DESC");
 	}
 	public function submit_index($data)
 	{
